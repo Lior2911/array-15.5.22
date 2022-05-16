@@ -149,14 +149,13 @@
 
 function array(odd){
   var num = 0
-  var oddNum = 0
   for(var i = 0 ; i < odd.length;i++){
     if (odd[i]%2==1){
-      num = i
-      oddNum = odd[i]
+      num += odd[i]
+     
     }
 
   }
-  console.log(oddNum)
+  console.log(num)
 }
-array([1,2,3,4,5,6,7])
+array([1,2,3,4])

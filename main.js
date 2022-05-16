@@ -147,15 +147,20 @@
 // }
 // getArray([2,12,5,18])
 
-function array(odd){
-  var num = 0
-  for(var i = 0 ; i < odd.length;i++){
-    if (odd[i]%2==1){
-      num += odd[i]
+// function array(odd){
+//   var num = 0
+//   for(var i = 0 ; i < odd.length;i++){
+//     if (odd[i]%2==1){
+//       num += odd[i]
      
-    }
+//     }
 
-  }
-  console.log(num)
+//   }
+//   console.log(num)
+// }
+// array([1,2,3,4])
+
+function array(names,last){
+
 }
-array([1,2,3,4])
+array("david"["lior","eldad","malada"])

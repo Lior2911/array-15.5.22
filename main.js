@@ -202,3 +202,51 @@
 // getNum()
 
 
+
+// כתוב פונקציה ב-JS המקבלת מחרוזת ומחזירה uppercase שלה
+
+// function getString(someString){
+//   var someString = "hello senior dawit"
+//   var newString = someString.toUpperCase()
+//   return newString
+// }
+// console.log(getString())
+
+// כתוב פונקציה ב-JS המקבלת מחרוזת עם מספרים מופרדים בעזרת פסיק ומחזירה מערך של המספרים.
+// לדוגמא עבור "12,3,455" יוחזר מערך עם המספרים 12,3,455
+
+// function fullNum(str){
+//   var str = "12,3,455"
+//   var newStr = [];
+//   newStr.push(str)
+//   return newStr
+// }
+// console.log(fullNum())
+
+// צרו פונקציה המקבלת סטרינג ובמידה והוא ארוך מ5 תווים היא מחזירה "long" אחרת "short"
+
+// function someName(str){
+//   var str = "hello motherFucker"
+//   if(str.length>5){
+//     return "long"
+//   }
+//   else{
+//     return "short"
+//   }
+// }
+// console.log(someName())
+
+// צרו פונקציה המקבלת סטרינג, במידה והסטרינג מכיל את התו "a", היא מחזירה את המיקום של התו אחרת היא מחזירה את ההודעה "not found"
+
+// function getString(str){
+// for (var i = 0 ; i< str.length;i++){
+//   if (str[i]=="a"){
+//    return i ;
+//   }
+  
+  
+// }
+// return "not Found"
+// }
+// console.log(getString("wakanda for ever"))
+

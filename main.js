@@ -160,7 +160,45 @@
 // }
 // array([1,2,3,4])
 
-function array(names,last){
+// function array(names,last){
 
-}
-array("david"["lior","eldad","malada"])
+// }
+// array("david"["lior","eldad","malada"])
+
+
+
+
+// 34.	כתבו פונקציה אשר קולטת מספר מהמשתמש ומדפיסה את ספרותיו. לדוגמא, אם המשתמש הכניס 673, אז התכנית תדפיס 3 אח"כ 7, אח"כ 6  (לצורך עיגול לעטוף את המספר ב-parseInt).
+// // 
+// function myArray(){
+// var array = ["hello",1,"world",2,"lior",3]
+// for(var i = 0 ; i<array.length;i++){
+//   if(array[i]/array[i]!=1){
+    
+//     array[i]="not a number"
+//   }
+  
+// }
+// console.log(array)
+// }
+// myArray()
+
+// function getWord(word){
+//   for(var i = 0 ; i < word.length;i++){
+//     console.log(word[i])
+//   }
+// }
+// getWord("hello motherfucker")
+
+
+// function getNum(text){
+//   var word= "hello"
+//   var newWord = ""
+//   for(var i = 0;i<text.length;i++){
+//   newWord+=text[i]+i
+// }
+// return newWord
+// }
+// getNum()
+
+

@@ -250,3 +250,38 @@
 // }
 // console.log(getString("wakanda for ever"))
 
+// צרו פונקציה המקבלת סטרינג, במידה והסטרינג מכיל את התו "r", היא מחזירה true אחרת היא מחזירה false
+
+// function someString(str){
+//   for (var i = 0 ; i<str.length;i++){
+//     if (str[i]=="r"){
+//   return true;
+// }
+//  } return false;
+
+
+// }
+// console.log(someString("qswfehrkfe"))
+// 
+// צרו פונקציה המקבלת סטרינג ותו, במידה והסטרינג מכיל את התו, היא מחזירה true אחרת היא מחזירה false
+// function someFunc(str,crh){
+//   for(var i = 0 ; i< str.length;i++){
+//     if(str[i]==crh){
+//       return true ; 
+//     }
+//   }
+//   return false;
+// }
+// console.log(someFunc("hello","l"))
+
+// צרו פונקציה המקבלת סטרינג ותו, במידה והסטרינג מכיל את התו, היא מדפיסה את האינדקס בסטרינג מורכב אחרת היא מדפיסה הודעה שאין את התו בסטרינג. יש להשתמש ב-lastIndex
+
+function someString(str,chr){
+  for(var i = 0 ; i<str.length;i++){
+    if(str.lastIndexof())=={
+
+    }
+
+  }
+
+}
